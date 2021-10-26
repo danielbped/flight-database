@@ -1,0 +1,32 @@
+# Projeto [MongoDB DataFlights](https://github.com/tryber/sd-012-mongodb-dataflights/pull/55)
+  - Módulo 3: Desenvolvimento Back-end
+  - Bloco 22: Introdução ao MongoDB
+### Requisitos
+- [x] Retorne a quantidade de documentos inseridos na coleção `voos`.
+- [x] Retorne os 10 primeiros documentos com voos da empresa `AZUL`.
+- [x] Retorne a quantidade de voos da empresa `AZUL`.
+- [x] Retorne a quantidade de voos da empresa `GOL`.
+- [x] Retorne o `vooId` do décimo ao décimo segundo documento da coleção `voos`.
+- [x] Retorne apenas os campos `empresa.sigla`, `empresa.nome` e `passageiros` do voo com o campo `vooId` igual a `756807`.
+- [x] Retorne a quantidade de voos em que o ano seja menor do que `2017`.
+- [x] Retorne a quantidade de voos em que o ano seja maior do que `2016`.
+- [x] Retorne a quantidade de voos entre os anos de `2017` e `2018`.
+- [x] Retorne apenas os **10** primeiros documentos com voos da empresa `GOL` do ano de `2017`. Exiba apenas os campos `vooId`, `empresa.nome`, `aeroportoOrigem.nome`, `aeroportoDestino.nome`, `mes` e `ano`.
+- [x] Retorne a quantidade de documentos em que o campo `aeroportoDestino.pais` não seja igual a `ESTADOS UNIDOS`.
+- [x] Retorne a quantidade de documentos em que o campo `aeroportoDestino.pais` seja igual a `BRASIL`, `ARGENTINA` ou `CHILE`.
+- [x] Retorne a quantidade de documentos em que o campo `aeroportoDestino.continente` não seja igual a `EUROPA`, `ÁSIA` e `OCEANIA`.
+- [x] Retorne o total de voos em que o país de origem não seja `BRASIL`.
+- [x] Retorne o total de voos com mais de 20 `decolagens`.
+- [x] Retorne o total de voos em que o campo `natureza` possui o valor `Internacional`.
+- [x] Retorne o total de voos em que o campo `natureza` possui o valor `Doméstica`.
+- [x] Retorne o `vooId`, `mes` e `ano` do primeiro voo com mais de `7000` passageiros pagos.
+- [x] Retorne o `vooId` do primeiro voo em que o campo `litrosCombustivel` exista.
+- [x] Retorne o `vooId` do primeiro voo em que o campo `rtk` não exista.
+- [x] Retorne o `vooId` do primeiro voo em que o campo `litrosCombustivel` seja maior ou igual a `1000`.
+- [x] Retorne o `vooId` do primeiro voo em que a empresa seja `DELTA AIRLINES` ou `AMERICAN AIRLINES`, a sigla do aeroporto de origem seja `SBGR` e a sigla do aeroporto de destino seja `KJFK`.
+- [x] Retorne o `vooId` e `litrosCombustivel` do primeiro voo em que o campo `litrosCombustivel` **não seja maior do que** `1000` e o campo `litrosCombustivel` exista.
+- [x] Retorne o `vooId`, `empresa.nome` e `litrosCombustivel` do primeiro voo em que `litrosCombustivel` **não seja maior do que** `600` **e** a empresa **não seja** `GOL` **ou** `AZUL`, **e** o campo `litrosCombustivel` exista.
+- [x] Remova todos os voos da empresa `AZUL` em que a quantidade de combustível seja menor do que `400`. Informe a quantidade de documentos removidos.
+- [x] Remova todos os voos da empresa `GOL` em que a quantidade de passageiros pagos esteja entre `5` e `10`, incluindo os casos em que a quantidade é `5` e `10`. Informe a quantidade de documentos removidos.
+- [ ] Retorne a quantidade total de voos de natureza `Doméstica` que a empresa `PASSAREDO` possui, via uso de uma nova coleção chamada `resumoVoos`.
+- [ ] Retorne a quantidade total de voos de natureza `Doméstica` que a empresa `LATAM AIRLINES BRASIL` possui, via uso de uma nova coleção chamada `resumoVoos`.
